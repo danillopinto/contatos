@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+}
+
+/*TELA PEQUENA*/
+
+@media (max-width: 600px) {
+
+    form {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(7, 7, 7);
+    }
+    
+    h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 33px;
+    }
+
+    
+    .input123{
+        background-color: rgb(15, 15, 15);
+        width: 90vw;
+        display: flex;
+        margin-left: 50%;
+        transform: translate(-50%);
+        padding: 10px;
+        margin-top: 25px;
+        border: 1px solid #a74f03;
+        color: white;
+    }
+
+    #bnt {
+        background-color: rgb(15, 15, 15);
+        width: 90vw;
+        margin-left: 50%;
+        transform: translate(-50%);
+        padding: 12px;
+        margin-top: 25px;
+        border: 1px solid #a74f03;
+        color: white;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+    }
+
+    #input4 {
+        background-color: rgb(15, 15, 15);
+        width: 90vw;
+        display: flex;
+        margin-left: 50%;
+        transform: translate(-50%);
+        padding: 10px 10px 230px 10px;
+        margin-top: 25px;
+        border: 1px solid #a74f03;
+        color: white;
+    }
+
+    input:hover {
+        box-shadow: 0px 0px 8px #a74f03;
+    }
+
+    #bnt:hover {
+        box-shadow: 0px 0px 8px #a74f03;
+        transition: 0.5s;
+    }
+
+}
+
+/*TELA GRANDE*/
+
+@media (min-width: 601px) {
+
+    form {
+        width: 550px;
+        height: 100vh;
+        background-color: rgb(7, 7, 7);
+    }
+    
+    h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 33px;
+    }
+
+    
+    .input123{
+        background-color: rgb(15, 15, 15);
+        width: 500px;
+        display: flex;
+        margin-left: 50%;
+        transform: translate(-50%);
+        padding: 10px;
+        margin-top: 25px;
+        border: 1px solid #a74f03;
+        color: white;
+        transition: 0.5s;
+    }
+
+    #bnt {
+        background-color: rgb(15, 15, 15);
+        width: 500px;
+        margin-left: 50%;
+        transform: translate(-50%);
+        padding: 12px;
+        margin-top: 25px;
+        border: 1px solid #a74f03;
+        color: white;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+    }
+
+    #input4 {
+        background-color: rgb(15, 15, 15);
+        width: 500px;
+        display: flex;
+        margin-left: 50%;
+        transform: translate(-50%);
+        padding: 10px 10px 230px 10px;
+        margin-top: 25px;
+        border: 1px solid #a74f03;
+        color: white;
+        transition: 0.5s;
+    }
+
+    input:hover {
+        box-shadow: 0px 0px 8px #a74f03;
+        transition: 0.5s;
+    }
+
+    #bnt:hover {
+        box-shadow: 0px 0px 8px #a74f03;
+        transition: 0.5s;
+    }
+
+}
